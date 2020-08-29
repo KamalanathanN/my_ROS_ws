@@ -30,9 +30,6 @@ e.g. `/usr/local` (by default gets installed in `/opt`). With `libblas-dev` I al
   ```
   pkg-config --libs --cflags dlib-1
   ```    
-    
-##### Source : 
-https://github.com/ipa320/autopnp
 # General Procedure
 
 1. Change the algorithm parameters in ros/launch/room_segmentation_action_server_params.yaml in ros/launch to the wanted algorithms and settings.
@@ -107,3 +104,5 @@ Additionally there are ground-truth maps, that show how a human might intersect 
 [2] Martinez Mozos, O., Rottmann, A., Triebel, R., Jensfelt, P., Burgard, W., et al. Semantic labeling of places using information extracted from laser and vision sensor data (2006)
 
 [3] Friedman, Stephen, Hanna Pasula, and Dieter Fox. "Voronoi Random Fields: Extracting Topological Structure of Indoor Environments via Place Labeling." IJCAI. Vol. 7. 2007
+##### Source : 
+https://github.com/ipa320/autopnp
