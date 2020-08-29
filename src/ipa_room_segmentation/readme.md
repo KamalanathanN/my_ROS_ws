@@ -30,6 +30,15 @@ e.g. `/usr/local` (by default gets installed in `/opt`). With `libblas-dev` I al
   ```
   pkg-config --libs --cflags dlib-1
   ```    
+---
+### Test run:
+  ```
+  roslaunch ipa_room_segmentation room_segmentation_action_server.launch
+  ```
+  ``` 
+  roslaunch ipa_room_segmentation room_segmentation_action_client.launch
+  ```
+---
 # General Procedure
 
 1. Change the algorithm parameters in ros/launch/room_segmentation_action_server_params.yaml in ros/launch to the wanted algorithms and settings.
